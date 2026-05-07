@@ -24,8 +24,8 @@ const projectData = [
     ],
     challenge: 'Creating a visually appealing layout that reflects the artistic nature of the products while keeping performance high on low-end devices.',
     solution: 'Used CSS Grid and clean Bootstrap components with lazy-loading images to ensure the art remains the focal point without sacrificing performance.',
-    demo: '#',
-    source: '#',
+    demo: 'https://blackspadesz784.github.io/aayan-art-glass/',
+    source: 'https://github.com/blackspadesz784/aayan-art-glass',
     color: 'linear-gradient(135deg, #06B6D4, #0EA5E9)'
   },
   {
@@ -49,7 +49,7 @@ const projectData = [
     challenge: 'Maintaining real-time performance without lag during live sessions while running complex ML inference.',
     solution: 'Optimized MediaPipe landmarks processing to run efficiently on the client-side with frame skipping and threshold smoothing algorithms.',
     demo: '#',
-    source: '#',
+    source: 'https://github.com/blackspadesz784/Online-Cheat-Dector',
     color: 'linear-gradient(135deg, #8B5CF6, #06B6D4)'
   },
   {
@@ -73,8 +73,8 @@ const projectData = [
     ],
     challenge: 'Implementing a complex permission-based system for three different user roles without creating security vulnerabilities.',
     solution: 'Used JWT-based authentication with specialized middleware to verify user roles and restrict access at both the API and UI level.',
-    demo: '#',
-    source: '#',
+    demo: 'https://placement-portal-frontend-nelc.onrender.com',
+    source: 'https://github.com/blackspadesz784/placement-portal',
     color: 'linear-gradient(135deg, #06B6D4, #38BDF8)'
   },
   {
@@ -98,8 +98,8 @@ const projectData = [
     ],
     challenge: 'Mapping hand coordinates from camera space to canvas space accurately, and reducing jitter for a smooth experience.',
     solution: 'Applied coordinate normalization with a Kalman-inspired smoothing algorithm to eliminate jitter while maintaining real-time responsiveness.',
-    demo: '#',
-    source: '#',
+    demo: 'https://blackspadesz784.github.io/Megical-particles/',
+    source: 'https://github.com/blackspadesz784/Megical-particles',
     color: 'linear-gradient(135deg, #F59E0B, #EF4444)'
   },
   {
@@ -123,8 +123,8 @@ const projectData = [
     ],
     challenge: 'Making the interface simple enough for users with limited technical knowledge while still providing powerful features for vendors.',
     solution: 'Designed a minimal dashboard with icon-heavy navigation, large touch targets, and local language support across the interface.',
-    demo: '#',
-    source: '#',
+    demo: 'https://blackspadesz784.github.io/Digital-Haat/',
+    source: 'https://github.com/blackspadesz784/Digital-Haat',
     color: 'linear-gradient(135deg, #22C55E, #06B6D4)'
   },
   {
@@ -148,8 +148,8 @@ const projectData = [
     ],
     challenge: 'Combining two distinct functionalities (Marketplace and Team Builder) into one cohesive UI without making either feel like an afterthought.',
     solution: 'Created separate modular tabs for "Store" and "Collaboration" with shared authentication and a unified profile system that serves both contexts.',
-    demo: '#',
-    source: '#',
+    demo: 'https://collabcart-frontend.onrender.com',
+    source: 'https://github.com/blackspadesz784/CollabCart',
     color: 'linear-gradient(135deg, #38BDF8, #818CF8)'
   }
 ];
