@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Haat — Simran Singh</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@700;800&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body class="proj-page-body">
+  <div id="loader"><div class="loader-inner"><span class="loader-text">SIMRAN SINGH</span><div class="loader-bar"></div></div></div>
+  <div id="cursor"></div>
+  <div id="cursor-follower"></div>
+
+  <nav class="navbar" id="mainNav">
+    <div class="nav-container">
+      <a class="brand-logo" href="index.html">SS<span>.</span></a>
+      <a href="index.html#projects" class="btn-outline" style="padding:10px 22px;font-size:0.85rem;">
+        <i class="bi bi-arrow-left"></i> Back to Projects
+      </a>
+    </div>
+  </nav>
+
+  <header class="proj-header">
+    <div class="container-xl">
+      <div style="display:grid;grid-template-columns:1fr auto;gap:40px;align-items:flex-end;">
+        <div>
+          <span class="proj-category-tag">Social Impact · MERN</span>
+          <h1 class="proj-hero-title">Digital Haat</h1>
+          <p class="proj-hero-tagline">Empowering street vendors to go digital.</p>
+        </div>
+        <div class="proj-year-display">2024</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container-xl section-pad-sm">
+    <div style="display:grid;grid-template-columns:1fr;gap:20px;margin-bottom:50px;">
+      <div class="screenshot-placeholder reveal">
+        <div class="screenshot-inner"><div class="screenshot-content">
+          <i class="bi bi-basket-fill screenshot-icon"></i>
+          <span class="screenshot-label">Vendor Dashboard — Product Listing</span>
+        </div></div>
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:60px;">
+      <div class="screenshot-placeholder reveal reveal-delay-1">
+        <div class="screenshot-inner tall"><div class="screenshot-content">
+          <i class="bi bi-geo-alt-fill screenshot-icon"></i>
+          <span class="screenshot-label">Location-based Product Discovery</span>
+        </div></div>
+      </div>
+      <div class="screenshot-placeholder reveal reveal-delay-2">
+        <div class="screenshot-inner tall"><div class="screenshot-content">
+          <i class="bi bi-phone screenshot-icon"></i>
+          <span class="screenshot-label">Simple Mobile-first UI</span>
+        </div></div>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:50px;align-items:start;">
+      <div>
+        <section class="reveal" style="margin-bottom:40px;">
+          <span class="section-label">Overview</span>
+          <p class="proj-detail-text">Digital Haat empowers street vendors and small businesses by allowing them to list their products and reach local customers online. The platform bridges the gap between traditional street markets and the digital economy, making it easy for non-tech users to participate.</p>
+        </section>
+        <section class="reveal" style="margin-bottom:40px;">
+          <span class="section-label">Key Features</span>
+          <ul class="feature-list">
+            <li>Easy product listing dashboard for vendors</li>
+            <li>Location-based discovery for nearby customers</li>
+            <li>Cloudinary-powered image uploads with compression</li>
+            <li>Simple UI designed for non-tech users</li>
+            <li>WhatsApp-based inquiry system for direct contact</li>
+          </ul>
+        </section>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;" class="reveal">
+          <div class="glass-card challenge-card">
+            <h4>The Challenge</h4>
+            <p>Making the interface simple enough for users with limited technical knowledge while still providing powerful features for vendors.</p>
+          </div>
+          <div class="glass-card challenge-card border-accent">
+            <h4>The Solution</h4>
+            <p>Designed a minimal dashboard with icon-heavy navigation, large touch targets, and local language support across the interface.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="sticky-sidebar">
+        <div class="glass-card meta-card reveal" style="margin-bottom:20px;">
+          <div class="meta-item"><span class="meta-label">Role</span><span class="meta-value">Lead Developer</span></div>
+          <div class="meta-item"><span class="meta-label">Duration</span><span class="meta-value">1.5 Months</span></div>
+          <div class="meta-item"><span class="meta-label">Type</span><span class="meta-value">Social Impact</span></div>
+          <div class="meta-item"><span class="meta-label">Year</span><span class="meta-value">2024</span></div>
+        </div>
+        <div class="glass-card meta-card reveal reveal-delay-1" style="margin-bottom:20px;">
+          <span class="section-label" style="margin-bottom:14px;">Technologies</span>
+          <div class="tech-tags-row">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">MongoDB</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Cloudinary</span>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:12px;" class="reveal reveal-delay-2">
+          <a href="#" class="btn-primary" style="justify-content:center;" target="_blank">Live Demo <i class="bi bi-box-arrow-up-right"></i></a>
+          <a href="#" class="btn-outline" style="justify-content:center;" target="_blank">Source Code <i class="bi bi-github"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="proj-nav-footer">
+      <div style="display:flex;justify-content:space-between;align-items:center;">
+        <button class="btn-nav" onclick="window.location.href='project4.html'"><i class="bi bi-chevron-left"></i> Previous</button>
+        <button class="btn-nav" onclick="window.location.href='project6.html'">Next Project <i class="bi bi-chevron-right"></i></button>
+      </div>
+    </div>
+  </main>
+
+  <footer><div class="footer-inner">
+    <p class="footer-text">&copy; 2024 <span>Simran Singh</span>. All Rights Reserved.</p>
+  </div></footer>
+
+  <button id="scrollTop" aria-label="Scroll to top"><i class="bi bi-chevron-up"></i></button>
+  <script src="./project.js"></script>
+  <style>
+    @media (max-width: 768px) {
+      main > div[style*="grid-template-columns:1.5fr"] { grid-template-columns: 1fr !important; }
+      main > div[style*="grid-template-columns:1fr 1fr"] { grid-template-columns: 1fr !important; }
+    }
+  </style>
+</body>
+</html>
