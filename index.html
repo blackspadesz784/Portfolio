@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simran Singh — Full Stack Developer</title>
+    <!-- CSS Dependencies -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- 1. LOADER -->
+    <div id="loader">
+        <div class="loader-inner">
+            <span class="loader-text">SIMRAN SINGH</span>
+        </div>
+    </div>
+
+    <!-- 2. CUSTOM CURSOR -->
+    <div id="cursor"></div>
+    <div id="cursor-follower"></div>
+
+    <!-- 3. NAVIGATION -->
+    <nav class="navbar navbar-expand-lg fixed-top glass-nav" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand brand-logo" href="index.html">SS<span class="dot">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a href="#contact" class="btn-glow small">Hire Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 4. HERO SECTION -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container hero-content">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="hero-eyebrow">
+                        <span class="eyebrow-dot"></span> Available for Opportunities
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="title-line">Simran Singh</span>
+                        <span class="title-line accent-text">Full Stack Developer</span>
+                    </h1>
+                    <p class="hero-sub">
+                        MERN Stack | AI Enthusiast <br>
+                        I build scalable web applications and intelligent systems that solve real-world problems using modern technologies.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn-glow">View Projects</a>
+                        <a href="#contact" class="btn-ghost">Hire Me</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-num" data-target="6">0</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-num" data-target="1">0</span>
+                            <span class="stat-label">Year Learning Exp.</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-num" data-target="3">0</span>
+                            <span class="stat-label">Real-world Apps</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. ABOUT SECTION -->
+    <section id="about" class="section-pad">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5">
+                    <div class="about-card glass-card">
+                        <div class="about-initials">SS</div>
+                        <div class="about-tag-stack">
+                            <div class="tag tag-open"><i class="bi bi-lightning-charge-fill blink"></i> Open to Internships</div>
+                            <div class="tag"><i class="bi bi-geo-alt-fill"></i> India</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="section-label">About Me</div>
+                    <h2 class="section-title">Passion for <em>Problem Solving</em></h2>
+                    <p class="section-body">
+                        I am a passionate Full Stack Developer focused on building real-world applications using the MERN stack and modern tools.
+                    </p>
+                    <p class="section-body">
+                        I enjoy solving practical problems through technology — whether it's creating platforms for students, helping small vendors go digital, or experimenting with AI-based systems.
+                    </p>
+                    <p class="section-body">
+                        Currently, I am exploring AI, system design, and scalable backend architectures to build impactful products.
+                    </p>
+                    <p class="section-body">
+                        <strong>Open to internships and freelance opportunities.</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. WHAT I LEARNED SECTION -->
+    <section id="learning" class="section-pad">
+        <div class="container">
+            <div class="glass-card p-5">
+                <div class="section-label text-center">Growth Mindset</div>
+                <h2 class="section-title text-center mb-5">What I <em>Learned</em></h2>
+                <div class="row g-4 mt-2">
+                    <div class="col-md-4">
+                        <div class="learning-item p-3">
+                            <h5 class="text-white mb-3"><i class="bi bi-code-square me-2 accent-text"></i> Architecture</h5>
+                            <p class="text-secondary small">Learned how to structure MERN applications for scalability and handle complex user roles (Admin/Recruiter/Student) with secure authentication.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="learning-item p-3">
+                            <h5 class="text-white mb-3"><i class="bi bi-robot me-2 accent-text"></i> AI Integration</h5>
+                            <p class="text-secondary small">Explored computer vision and hand-gesture recognition using Python and MediaPipe to create immersive, futuristic user interactions.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="learning-item p-3">
+                            <h5 class="text-white mb-3"><i class="bi bi-people me-2 accent-text"></i> User Centricity</h5>
+                            <p class="text-secondary small">Understood the importance of building for non-tech users, ensuring accessibility and simplicity for local vendors and students.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. SKILLS SECTION -->
+    <section id="skills" class="section-pad">
+        <div class="container text-center">
+            <div class="section-label">Expertise</div>
+            <h2 class="section-title">Tech <em>Stack</em></h2>
+            <div class="row g-4 mt-4">
+                <div class="col-md-4">
+                    <div class="skill-card glass-card">
+                        <i class="bi bi-window-sidebar skill-icon"></i>
+                        <h4 class="skill-title">Frontend</h4>
+                        <div class="skill-tags">
+                            <span>React</span> <span>HTML5</span> <span>CSS3</span> <span>JavaScript</span> <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card glass-card">
+                        <i class="bi bi-database-fill-gear skill-icon"></i>
+                        <h4 class="skill-title">Backend</h4>
+                        <div class="skill-tags">
+                            <span>Node.js</span> <span>Express.js</span> <span>MongoDB</span> <span>REST APIs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card glass-card">
+                        <i class="bi bi-cpu skill-icon"></i>
+                        <h4 class="skill-title">Tools & AI</h4>
+                        <div class="skill-tags">
+                            <span>Git</span> <span>GitHub</span> <span>Python</span> <span>MediaPipe</span> <span>AI basics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. PROJECTS SECTION -->
+    <section id="projects" class="section-pad">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="section-label">Portfolio</div>
+                <h2 class="section-title">Featured <em>Work</em></h2>
+            </div>
+            <div class="row g-4" id="projectGrid">
+                <!-- Data injected by script.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. CONTACT SECTION -->
+    <section id="contact" class="section-pad">
+        <div class="container text-center">
+            <div class="contact-wrap glass-card">
+                <div class="section-label">Get In Touch</div>
+                <h2 class="section-title">Let's build something <em>Impactful</em></h2>
+                <p class="section-body mx-auto mb-5" style="max-width: 600px;">
+                    Have an idea or opportunity? I’m open to internships, freelance work, and collaborations. Let’s connect and create something meaningful.
+                </p>
+                <div class="social-row">
+                    <a href="#" class="social-icon" title="GitHub"><i class="bi bi-github"></i></a>
+                    <a href="#" class="social-icon" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="social-icon" title="Email"><i class="bi bi-envelope-at-fill"></i></a>
+                </div>
+                <div class="mt-5">
+                    <a href="mailto:your-email@gmail.com" class="btn-glow">Send an Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. FOOTER -->
+    <footer class="py-4 text-center">
+        <p class="text-secondary small">&copy; 2024 Simran Singh. Crafted with passion.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
