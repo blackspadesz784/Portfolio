@@ -10,6 +10,7 @@ const projectData = [
     category: 'E-commerce · Static',
     year: '2025',
     icon: 'bi-shop',
+    image: 'Pictures/Aayan Art Glass.png',
     tagline: 'Personal shop static website for business showcase.',
     tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     role: 'Frontend Developer',
@@ -34,6 +35,7 @@ const projectData = [
     category: 'AI · Security',
     year: '2026',
     icon: 'bi-eye-fill',
+    image: 'Pictures/Online-Cheat-Detact.png',
     tagline: 'AI-based online proctoring system for exam integrity.',
     tech: ['Python', 'OpenCV', 'MediaPipe', 'React'],
     role: 'AI Developer',
@@ -58,6 +60,7 @@ const projectData = [
     category: 'Full Stack · MERN',
     year: '2026',
     icon: 'bi-briefcase-fill',
+    image: 'Pictures/Placement Portal.png',
     tagline: 'Complete recruitment lifecycle management platform.',
     tech: ['React', 'Node.js', 'MongoDB', 'Express'],
     role: 'Full Stack Developer',
@@ -83,6 +86,7 @@ const projectData = [
     category: 'AI · Creative Coding',
     year: '2026',
     icon: 'bi-magic',
+    image: 'Pictures/Magical Partical.png',
     tagline: 'Control particles using real-time hand gestures.',
     tech: ['MediaPipe', 'Canvas API', 'JavaScript'],
     role: 'Creative Technologist',
@@ -108,6 +112,7 @@ const projectData = [
     category: 'Social Impact · MERN',
     year: '2026',
     icon: 'bi-basket-fill',
+    image: 'Pictures/Digital Haat.png',
     tagline: 'Empowering street vendors to go digital.',
     tech: ['React', 'MongoDB', 'Node.js', 'Cloudinary'],
     role: 'Lead Developer',
@@ -133,6 +138,7 @@ const projectData = [
     category: 'Student Utility',
     year: '2026',
     icon: 'bi-cart-check-fill',
+    image: 'Pictures/CollabCart.png',
     tagline: 'Second-hand marketplace and hackathon team builder.',
     tech: ['React', 'Firebase', 'Express', 'Node.js'],
     role: 'Full Stack Developer',
@@ -372,22 +378,46 @@ if (scrollTopBtn) {
   if (!grid) return;
 
   grid.innerHTML = projectData.map(p => `
-    <div class="project-card glass-card reveal" onclick="window.location.href='project${p.id}.html'" tabindex="0" role="button" aria-label="View ${p.title}">
-      <div class="card-top">
-        <span class="proj-number">#0${p.id}</span>
-        <span class="proj-year-badge">${p.year}</span>
-      </div>
-      <div class="proj-icon-wrap">
-        <i class="bi ${p.icon}"></i>
-      </div>
-      <h3 class="proj-title">${p.title}</h3>
-      <p class="proj-desc">${p.tagline}</p>
-      <div class="proj-footer">
-        <div class="proj-tech">
-          ${p.tech.slice(0, 3).map(t => `<span>${t}</span>`).join('')}
+    <div class="project-card glass-card reveal" 
+         onclick="window.location.href='project${p.id}.html'" 
+         tabindex="0" role="button" aria-label="View Details for ${p.title}">
+      
+      <div class="proj-img-wrap">
+        <img src="${p.image}" alt="${p.title}" class="proj-img">
+        <div class="proj-img-overlay">
+          <span class="proj-number">#0${p.id}</span>
+          <span class="proj-year-badge">${p.year}</span>
         </div>
-        <div class="proj-arrow">
-          <i class="bi bi-arrow-up-right"></i>
+      </div>
+      
+      <div class="proj-card-content">
+        <div class="proj-icon-row">
+          <div class="proj-icon-wrap">
+            <i class="bi ${p.icon}"></i>
+          </div>
+          <h3 class="proj-title">${p.title}</h3>
+        </div>
+        
+        <p class="proj-desc">${p.tagline}</p>
+        
+        <div class="proj-links-stacked">
+          ${p.demo !== '#' ? `
+            <a href="${p.demo}" target="_blank" onclick="event.stopPropagation()" class="btn-primary card-btn">
+              Live Demo <i class="bi bi-box-arrow-up-right"></i>
+            </a>
+          ` : ''}
+          <a href="${p.source}" target="_blank" onclick="event.stopPropagation()" class="btn-outline card-btn">
+            Source Code <i class="bi bi-github"></i>
+          </a>
+        </div>
+
+        <div class="proj-footer">
+          <div class="proj-tech">
+            ${p.tech.slice(0, 3).map(t => `<span>${t}</span>`).join('')}
+          </div>
+          <div class="proj-arrow">
+            <i class="bi bi-arrow-right"></i>
+          </div>
         </div>
       </div>
     </div>
