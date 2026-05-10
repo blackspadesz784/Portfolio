@@ -157,6 +157,31 @@ const projectData = [
     demo: 'https://collabcart-frontend.onrender.com',
     source: 'https://github.com/blackspadesz784/CollabCart',
     color: 'linear-gradient(135deg, #38BDF8, #818CF8)'
+  },
+  {
+    id: 7,
+    title: 'NyaaySetu',
+    category: 'AI · Legal Tech',
+    year: '2026',
+    icon: 'bi-bank',
+    image: 'Pictures/NyaaySetu.png',
+    tagline: 'AI-powered Indian Constitution platform for multilingual accessibility.',
+    tech: ['React', 'Node.js', 'AI/ML', 'MongoDB'],
+    role: 'Full Stack Developer',
+    duration: '2 Months',
+    type: 'Social Impact',
+    intro: 'NyaaySetu is an AI-powered platform designed to make the Indian Constitution accessible to every citizen by breaking language barriers. It simplifies complex legal jargon into easy-to-understand language and provides accurate translations across multiple Indian languages.',
+    features: [
+      'Multilingual support (Hindi, English, Tamil, etc.)',
+      'AI-powered simplification of legal articles',
+      'Smart search for laws, articles, and topics',
+      'Interactive UI for better understanding of rights and duties'
+    ],
+    challenge: 'Accurately translating complex legal terminology while maintaining the original legal meaning and context across diverse languages.',
+    solution: 'Leveraged advanced NLP models and fine-tuned AI to provide context-aware translations and simplifications that remain legally sound.',
+    demo: 'https://nyaaysetu-frontend.onrender.com/',
+    source: 'https://github.com/blackspadesz784/NyaaySetu',
+    color: 'linear-gradient(135deg, #FF9933, #128807)'
   }
 ];
 
